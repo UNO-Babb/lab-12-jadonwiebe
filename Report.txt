@@ -1,44 +1,45 @@
-Name:
+Name:Jadon Wiebe
 
-Number of elements:
+Number of elements:1,000
 
 Bubble Sort
-Sorted:
-Reversed:
-Random:
+Sorted: 0.02157 seconds
+Reversed: 0.05680 seconds
+Random: 0.04160 seconds
 
 Bubble Sort Early Exit
-Sorted:
-Reversed:
-Random:
+Sorted: 0.00009 seconds
+Reversed: 0.05853 seconds
+Random: 0.04309 seconds
 
 Selection Sort
-Sorted:
-Reversed:
-Random:
+Sorted: 0.01850 seconds
+Reversed: 0.01853 seconds
+Random: 0.02716 seconds
 
 Insertion Sort
-Sorted:
-Reversed:
-Random:
+Sorted: 0.00014 seconds
+Reversed: 0.03275 seconds
+Random: 0.03382 seconds
 
 Merge Sort
-Sorted:
-Reversed:
-Random:
+Sorted: 0.00123 seconds
+Reversed: 0.00119 seconds
+Random: 0.00150 seconds
 
 Questions to answer:
 1) What was the worst case scenario for any sorting technique?
-
+Reversed was usually the least efficient sorting technique, although Random was slower in some of the tests
 
 2) The first 3 sorts have the same runtime of O(n^2). Why were the times different? Why would one be more efficient than the others?
-
+Number of swaps and the way data was moved around made the runtime longer.
 
 3) Why was merge sort so much more efficient?
-
+Merge Sort broke things down into smaller pieces, making it easier to sort.
 
 4) The built-in sorting technique for most programming languages is known as TimSort.
 This is a merge sort until the arrays have fewer than 10 elements, then it does an insertion sort. Why would this be useful?
-
+I'm gonna be real I have no idea.
 
 5) What issues can you see with a recursive sorting technique like merge sort?
+Adds unnecessary steps, while it was faster it also took more lines to get the same work done.
